@@ -5,8 +5,7 @@ public class Solution_14 {
 
     public static void main(String[] args) {
         LongestCommonPrefix a = new LongestCommonPrefix();
-        String[] b = {"Flower","Flow","Flight"};
-        System.out.println(a.LCP(b));
+        System.out.println(a.LCP(new String[]{"Flowers","Flow","Flight"}));
         
     }
 }
