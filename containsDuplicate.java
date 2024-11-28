@@ -1,6 +1,6 @@
 // The TIme Complexity:
 // Best Case and Average Case: O(1) as we are using the hashset which takes one unit of time
-
+// Worst Case: O(n)
 import java.util.HashSet;
 
 public class containsDuplicate { 
