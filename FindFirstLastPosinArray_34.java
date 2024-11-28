@@ -1,4 +1,6 @@
-
+// The Time Complexity:
+// Best Case: O(1)
+// Average and Worst Case: O(n) use Binary Search to get O(log n)
 import java.util.Arrays;
 public class FindFirstLastPosinArray_34 {
     public int[] findRange(int[] nums, int target){
