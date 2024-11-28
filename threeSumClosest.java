@@ -1,5 +1,7 @@
+// The Time Complexity for this
+// Best Case: O(1)
+// Average and Worst Case: O(n)
 import java.util.Arrays;
-
 public class threeSumClosest {
     public int three_Sum_Closest(int[] nums, int target){
         int closestNum = Integer.MAX_VALUE;
