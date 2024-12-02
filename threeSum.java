@@ -1,5 +1,5 @@
 // The Time Complexity:
-// Best Case: O(1)
+// Best Case: O(n log n)
 // Average and worst case is O(n²)
 import java.util.ArrayList;
 import java.util.Arrays;
