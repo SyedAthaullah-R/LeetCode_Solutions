@@ -1,5 +1,6 @@
 // The Time Complexity:
-// Best, Average and worst case is O(n²)
+// Best Case: O(1)
+// Average and worst case is O(n²)
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
