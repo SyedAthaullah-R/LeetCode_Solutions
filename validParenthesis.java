@@ -9,7 +9,7 @@ public class validParenthesis {
                 else if(c == '[') st.push(']');
                 else if(st.isEmpty() || st.pop() != c) return false;
             }
-            return st.isEmpty();
+            return st.Empty();
         }
         public static void main(String[] args) {
             validParenthesis v = new validParenthesis();
