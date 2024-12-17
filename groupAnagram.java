@@ -1,5 +1,5 @@
 // Time COmplexity: O(nk)
-//                  Where n is the Number of Strings and k is their Length
+//Where n is the Number of Strings and k is their Length
 
 import java.util.ArrayList;
 import java.util.Arrays;
