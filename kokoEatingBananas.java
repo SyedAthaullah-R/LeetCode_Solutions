@@ -1,4 +1,4 @@
-// Time Complexity: O(n * log M)
+// Time Complexity:  O(n * log M)
 
 public class kokoEatingBananas {
     private int findMax(int[] arr){
