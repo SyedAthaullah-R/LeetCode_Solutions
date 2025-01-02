@@ -1,6 +1,6 @@
 // Time Complexity: 
 // Best case: O(1)
-// Average and Worst Case: O(log(min(m, n)))
+// Average and Worst Case:  O(log(min(m, n)))
 public class medianOfTwoSortedArrays {
     public double findMedianOfSortedArray(int[] nums1, int[] nums2){
         int[] A = nums1, B = nums2;
