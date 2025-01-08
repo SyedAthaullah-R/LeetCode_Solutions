@@ -1,4 +1,4 @@
-// Time Complexity:  O(n)
+// Time Complexity: O(n)
 
 public class longestRepeatingCharacterReplacement {
     public int longest_Repeating_character(String s, int k){
