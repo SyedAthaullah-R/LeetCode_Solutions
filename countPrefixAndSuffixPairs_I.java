@@ -1,4 +1,4 @@
-// Time Complexity:  O(n²)
+// Time Complexity: O(n²)
 
 public class countPrefixAndSuffixPairs_I {
     public int count_Prefix_Suffix_Pairs(String[] words){
