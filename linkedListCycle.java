@@ -4,8 +4,8 @@ class ListNode{
     int val;
     ListNode next;
     ListNode(int val){
-        val = this.val;
-        next = null;
+        this.val = val;
+        this.next = null;
     }
 }
 public class linkedListCycle {
