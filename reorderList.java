@@ -16,8 +16,8 @@ public class reorderList {
             curr = temp;
         }
         ListNode first = head, second = prev;
-        ListNode temp1 = first.next, temp2 = second.next;
         while(second != null){
+            ListNode temp1 = first.next, temp2 = second.next;
             first.next = second;
             second.next = temp1;
             first = temp1;
