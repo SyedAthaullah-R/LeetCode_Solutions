@@ -1,6 +1,7 @@
 // Time Complexity: O(n)
 public class reorderList {
     public void re_Order_List(ListNode head){
+        if(head == null || head.next == null) return;
         ListNode slow = head, fast = head;
         while(fast != null && fast.next != null){
             slow = slow.next;
