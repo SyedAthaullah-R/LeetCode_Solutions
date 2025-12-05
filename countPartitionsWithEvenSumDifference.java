@@ -1,3 +1,4 @@
+// Time Complexity: O(n)
 public class countPartitionsWithEvenSumDifference {
     public int coutnPartitions(int[] nums){
         int sum = 0;
