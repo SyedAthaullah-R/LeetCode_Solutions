@@ -1,3 +1,4 @@
+// Time Complexity: O(n)
 public class rotateList {
     public ListNode getKth(ListNode node, int k) {
         int count = 1;
