@@ -2,7 +2,7 @@
 // Time Complexity: O(n)
 import java.util.Arrays;
 
-public class checkIfStringsCanBeEqualWithOperations_i {
+public class checkIfStringsCanBeMadeEqualWithOperations_i {
     public boolean caBeEqual(String s1, String s2) {
         int[] evenI = new int[26], evenII = new int[26], oddI = new int[26], oddII = new int[26];
         for (int i = 0; i < 4; i++) {
@@ -18,7 +18,7 @@ public class checkIfStringsCanBeEqualWithOperations_i {
     }
 
     public static void main(String[] args) {
-        checkIfStringsCanBeEqualWithOperations_i a = new checkIfStringsCanBeEqualWithOperations_i();
+        checkIfStringsCanBeMadeEqualWithOperations_i a = new checkIfStringsCanBeMadeEqualWithOperations_i();
         System.out.println(a.caBeEqual("abcd", "cdab"));
     }
 }
