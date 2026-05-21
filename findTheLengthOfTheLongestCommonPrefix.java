@@ -2,7 +2,7 @@
 // Time Complexity: O((m + n) * d²)
 import java.util.HashSet;
 
-public class findTheLengthOfTheLongestCommmPrefix {
+public class findTheLengthOfTheLongestCommonPrefix {
     public int longestCommomPrefix(int[] arr1, int[] arr2) {
         HashSet<String> set = new HashSet<>();
         for (int i : arr1) {
@@ -23,7 +23,7 @@ public class findTheLengthOfTheLongestCommmPrefix {
     }
 
     public static void main(String[] args) {
-        findTheLengthOfTheLongestCommmPrefix a = new findTheLengthOfTheLongestCommmPrefix();
+        findTheLengthOfTheLongestCommonPrefix a = new findTheLengthOfTheLongestCommonPrefix();
         int[] arr1 = { 1, 10, 1000 }, arr2 = { 1000 };
         System.out.println(a.longestCommomPrefix(arr1, arr2));
     }
