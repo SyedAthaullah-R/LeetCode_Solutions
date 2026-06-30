@@ -1,3 +1,4 @@
+// Time Complexity: O(m * n)
 public class numberOfStringsThatAppearAsSubstringInWord {
     public int numOfString(String[] patterns, String word) {
         int res = 0;
